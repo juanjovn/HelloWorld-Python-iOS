@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    func getString() -> String {
+        let array = nummpyScript()
+        var string = ""
+        
+        array.compactMap({
+            String($0)
+        })
+        .forEach({string.append(contentsOf: "\($0) ")})
+        
+        return string
+    }
+    
     var body: some View {
-        Text(String(runDummyPythonScript()) ?? "")
+        Text(getString())
             .padding()
             .font(.title2)
             .frame(maxWidth: .infinity, alignment: .center)

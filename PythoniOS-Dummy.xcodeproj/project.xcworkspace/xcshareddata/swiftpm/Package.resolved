@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
+      "identity" : "numpy-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/NumPy-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c27e79ea5485f5b727aaaf330635f7d423513100"
+      }
+    },
+    {
       "identity" : "python-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kewlbear/Python-iOS.git",
       "state" : {
-        "revision" : "ace19caa26a9fc7a1a666757852fd4f8050ac4df",
-        "version" : "0.0.20211030092316"
+        "branch" : "3.8_kivy-ios",
+        "revision" : "f5333228b625560a90c17d9e2d3a9b2aac6967a9"
       }
     },
     {

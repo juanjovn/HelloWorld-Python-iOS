@@ -13,8 +13,8 @@
 		8154B3C028CA15830020A8D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8154B3BF28CA15830020A8D4 /* Preview Assets.xcassets */; };
 		8154B3CA28CA15FD0020A8D4 /* DummyPythonScript.py in Resources */ = {isa = PBXBuildFile; fileRef = 8154B3C928CA15FD0020A8D4 /* DummyPythonScript.py */; };
 		8154B3CC28CA16850020A8D4 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154B3CB28CA16850020A8D4 /* PythonManager.swift */; };
-		8154B3CF28CA5AE00020A8D4 /* Python-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 8154B3CE28CA5AE00020A8D4 /* Python-iOS */; };
 		8154B3D228CA5B7F0020A8D4 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8154B3D128CA5B7F0020A8D4 /* PythonKit */; };
+		81BB918828CB695A009282F0 /* NumPy-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 81BB918728CB695A009282F0 /* NumPy-iOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8154B3CF28CA5AE00020A8D4 /* Python-iOS in Frameworks */,
+				81BB918828CB695A009282F0 /* NumPy-iOS in Frameworks */,
 				8154B3D228CA5B7F0020A8D4 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,8 +94,8 @@
 			);
 			name = "PythoniOS-Dummy";
 			packageProductDependencies = (
-				8154B3CE28CA5AE00020A8D4 /* Python-iOS */,
 				8154B3D128CA5B7F0020A8D4 /* PythonKit */,
+				81BB918728CB695A009282F0 /* NumPy-iOS */,
 			);
 			productName = "PythoniOS-Dummy";
 			productReference = 8154B3B528CA15820020A8D4 /* PythoniOS-Dummy.app */;
@@ -126,8 +126,8 @@
 			);
 			mainGroup = 8154B3AC28CA15820020A8D4;
 			packageReferences = (
-				8154B3CD28CA5AE00020A8D4 /* XCRemoteSwiftPackageReference "Python-iOS" */,
 				8154B3D028CA5B7F0020A8D4 /* XCRemoteSwiftPackageReference "PythonKit" */,
+				81BB918628CB695A009282F0 /* XCRemoteSwiftPackageReference "NumPy-iOS" */,
 			);
 			productRefGroup = 8154B3B628CA15820020A8D4 /* Products */;
 			projectDirPath = "";
@@ -300,6 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juanjovn.PythoniOS-Dummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -361,14 +362,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8154B3CD28CA5AE00020A8D4 /* XCRemoteSwiftPackageReference "Python-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kewlbear/Python-iOS.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.59932;
-			};
-		};
 		8154B3D028CA5B7F0020A8D4 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pvieito/PythonKit.git";
@@ -377,18 +370,26 @@
 				kind = branch;
 			};
 		};
+		81BB918628CB695A009282F0 /* XCRemoteSwiftPackageReference "NumPy-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kewlbear/NumPy-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8154B3CE28CA5AE00020A8D4 /* Python-iOS */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8154B3CD28CA5AE00020A8D4 /* XCRemoteSwiftPackageReference "Python-iOS" */;
-			productName = "Python-iOS";
-		};
 		8154B3D128CA5B7F0020A8D4 /* PythonKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8154B3D028CA5B7F0020A8D4 /* XCRemoteSwiftPackageReference "PythonKit" */;
 			productName = PythonKit;
+		};
+		81BB918728CB695A009282F0 /* NumPy-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81BB918628CB695A009282F0 /* XCRemoteSwiftPackageReference "NumPy-iOS" */;
+			productName = "NumPy-iOS";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
