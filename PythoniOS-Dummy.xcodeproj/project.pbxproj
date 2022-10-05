@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8137C2E928ED772B00C87F54 /* TorchModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8137C2E828ED772B00C87F54 /* TorchModule.mm */; };
 		8154B3B928CA15820020A8D4 /* PythoniOS_DummyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154B3B828CA15820020A8D4 /* PythoniOS_DummyApp.swift */; };
 		8154B3BB28CA15820020A8D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154B3BA28CA15820020A8D4 /* ContentView.swift */; };
 		8154B3BD28CA15830020A8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8154B3BC28CA15830020A8D4 /* Assets.xcassets */; };
@@ -14,10 +15,24 @@
 		8154B3CA28CA15FD0020A8D4 /* DummyPythonScript.py in Resources */ = {isa = PBXBuildFile; fileRef = 8154B3C928CA15FD0020A8D4 /* DummyPythonScript.py */; };
 		8154B3CC28CA16850020A8D4 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154B3CB28CA16850020A8D4 /* PythonManager.swift */; };
 		8154B3D228CA5B7F0020A8D4 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8154B3D128CA5B7F0020A8D4 /* PythonKit */; };
+		816174A028EC99F5003F2D51 /* module_kp_sign.pt in Resources */ = {isa = PBXBuildFile; fileRef = 8161749E28EC99F3003F2D51 /* module_kp_sign.pt */; };
+		816174A128EC99F5003F2D51 /* module_kp.pt in Resources */ = {isa = PBXBuildFile; fileRef = 8161749F28EC99F5003F2D51 /* module_kp.pt */; };
+		816AC1D128EB1DE100919E85 /* kwikpen-python-script.py in Resources */ = {isa = PBXBuildFile; fileRef = 816AC1D028EB1DE100919E85 /* kwikpen-python-script.py */; };
+		816AC1D328EB220800919E85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AC1D228EB220800919E85 /* Constants.swift */; };
+		816AC1D528EB230100919E85 /* pinchazo-recibido-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 816AC1D428EB230100919E85 /* pinchazo-recibido-1.json */; };
+		816AC1D728EB2DEE00919E85 /* ejemplo-angel.json in Resources */ = {isa = PBXBuildFile; fileRef = 816AC1D628EB2DEE00919E85 /* ejemplo-angel.json */; };
+		81980B3428ED79F70041FCEB /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81980B3328ED79F70041FCEB /* UIImage+Helper.swift */; };
+		81AEA01128EC8437005E465F /* PyTorchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AEA01028EC8437005E465F /* PyTorchManager.swift */; };
+		81B2E76428ED6758005BE724 /* model.pt in Resources */ = {isa = PBXBuildFile; fileRef = 81B2E76328ED6758005BE724 /* model.pt */; };
 		81BB918828CB695A009282F0 /* NumPy-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 81BB918728CB695A009282F0 /* NumPy-iOS */; };
+		BED49E2E5463B4F343D5BAC2 /* libPods-PythoniOS-Dummy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B21C938C10975A316D2C21 /* libPods-PythoniOS-Dummy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DBD71DD4E42A87475DAD93B /* Pods-PythoniOS-Dummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PythoniOS-Dummy.debug.xcconfig"; path = "Target Support Files/Pods-PythoniOS-Dummy/Pods-PythoniOS-Dummy.debug.xcconfig"; sourceTree = "<group>"; };
+		8137C2E628ED772B00C87F54 /* PythoniOS-Dummy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PythoniOS-Dummy-Bridging-Header.h"; sourceTree = "<group>"; };
+		8137C2E728ED772B00C87F54 /* TorchModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorchModule.h; sourceTree = "<group>"; };
+		8137C2E828ED772B00C87F54 /* TorchModule.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TorchModule.mm; sourceTree = "<group>"; };
 		8154B3B528CA15820020A8D4 /* PythoniOS-Dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PythoniOS-Dummy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8154B3B828CA15820020A8D4 /* PythoniOS_DummyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythoniOS_DummyApp.swift; sourceTree = "<group>"; };
 		8154B3BA28CA15820020A8D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +40,17 @@
 		8154B3BF28CA15830020A8D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8154B3C928CA15FD0020A8D4 /* DummyPythonScript.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = DummyPythonScript.py; sourceTree = "<group>"; };
 		8154B3CB28CA16850020A8D4 /* PythonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythonManager.swift; sourceTree = "<group>"; };
+		8161749E28EC99F3003F2D51 /* module_kp_sign.pt */ = {isa = PBXFileReference; lastKnownFileType = file; path = module_kp_sign.pt; sourceTree = "<group>"; };
+		8161749F28EC99F5003F2D51 /* module_kp.pt */ = {isa = PBXFileReference; lastKnownFileType = file; path = module_kp.pt; sourceTree = "<group>"; };
+		816AC1D028EB1DE100919E85 /* kwikpen-python-script.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "kwikpen-python-script.py"; sourceTree = "<group>"; };
+		816AC1D228EB220800919E85 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		816AC1D428EB230100919E85 /* pinchazo-recibido-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pinchazo-recibido-1.json"; sourceTree = "<group>"; };
+		816AC1D628EB2DEE00919E85 /* ejemplo-angel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ejemplo-angel.json"; sourceTree = "<group>"; };
+		81980B3328ED79F70041FCEB /* UIImage+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		81AEA01028EC8437005E465F /* PyTorchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyTorchManager.swift; sourceTree = "<group>"; };
+		81B2E76328ED6758005BE724 /* model.pt */ = {isa = PBXFileReference; lastKnownFileType = file; name = model.pt; path = "../../../cloned_stuff/ios-demo-app/HelloWorld/HelloWorld/HelloWorld/model/model.pt"; sourceTree = "<group>"; };
+		99D6D6F03D70727848FDB48C /* Pods-PythoniOS-Dummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PythoniOS-Dummy.release.xcconfig"; path = "Target Support Files/Pods-PythoniOS-Dummy/Pods-PythoniOS-Dummy.release.xcconfig"; sourceTree = "<group>"; };
+		F4B21C938C10975A316D2C21 /* libPods-PythoniOS-Dummy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PythoniOS-Dummy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +60,7 @@
 			files = (
 				81BB918828CB695A009282F0 /* NumPy-iOS in Frameworks */,
 				8154B3D228CA5B7F0020A8D4 /* PythonKit in Frameworks */,
+				BED49E2E5463B4F343D5BAC2 /* libPods-PythoniOS-Dummy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +72,8 @@
 			children = (
 				8154B3B728CA15820020A8D4 /* PythoniOS-Dummy */,
 				8154B3B628CA15820020A8D4 /* Products */,
+				B2A808E1450B7CBE97898147 /* Pods */,
+				B3964E9851EFC109ABE241A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +88,22 @@
 		8154B3B728CA15820020A8D4 /* PythoniOS-Dummy */ = {
 			isa = PBXGroup;
 			children = (
+				81980B3228ED78050041FCEB /* TorchBridge */,
+				8161749E28EC99F3003F2D51 /* module_kp_sign.pt */,
+				8161749F28EC99F5003F2D51 /* module_kp.pt */,
+				81B2E76328ED6758005BE724 /* model.pt */,
 				8154B3B828CA15820020A8D4 /* PythoniOS_DummyApp.swift */,
 				8154B3BA28CA15820020A8D4 /* ContentView.swift */,
 				8154B3BC28CA15830020A8D4 /* Assets.xcassets */,
 				8154B3BE28CA15830020A8D4 /* Preview Content */,
 				8154B3C928CA15FD0020A8D4 /* DummyPythonScript.py */,
 				8154B3CB28CA16850020A8D4 /* PythonManager.swift */,
+				81AEA01028EC8437005E465F /* PyTorchManager.swift */,
+				816AC1D028EB1DE100919E85 /* kwikpen-python-script.py */,
+				816AC1D228EB220800919E85 /* Constants.swift */,
+				816AC1D628EB2DEE00919E85 /* ejemplo-angel.json */,
+				816AC1D428EB230100919E85 /* pinchazo-recibido-1.json */,
+				81980B3328ED79F70041FCEB /* UIImage+Helper.swift */,
 			);
 			path = "PythoniOS-Dummy";
 			sourceTree = "<group>";
@@ -77,6 +116,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		81980B3228ED78050041FCEB /* TorchBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8137C2E628ED772B00C87F54 /* PythoniOS-Dummy-Bridging-Header.h */,
+				8137C2E728ED772B00C87F54 /* TorchModule.h */,
+				8137C2E828ED772B00C87F54 /* TorchModule.mm */,
+			);
+			path = TorchBridge;
+			sourceTree = "<group>";
+		};
+		B2A808E1450B7CBE97898147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DBD71DD4E42A87475DAD93B /* Pods-PythoniOS-Dummy.debug.xcconfig */,
+				99D6D6F03D70727848FDB48C /* Pods-PythoniOS-Dummy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3964E9851EFC109ABE241A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4B21C938C10975A316D2C21 /* libPods-PythoniOS-Dummy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8154B3C328CA15830020A8D4 /* Build configuration list for PBXNativeTarget "PythoniOS-Dummy" */;
 			buildPhases = (
+				F91CC0505B93E52E0EF4511A /* [CP] Check Pods Manifest.lock */,
 				8154B3B128CA15820020A8D4 /* Sources */,
 				8154B3B228CA15820020A8D4 /* Frameworks */,
 				8154B3B328CA15820020A8D4 /* Resources */,
@@ -113,6 +180,7 @@
 				TargetAttributes = {
 					8154B3B428CA15820020A8D4 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -143,13 +211,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816174A028EC99F5003F2D51 /* module_kp_sign.pt in Resources */,
+				816AC1D728EB2DEE00919E85 /* ejemplo-angel.json in Resources */,
 				8154B3C028CA15830020A8D4 /* Preview Assets.xcassets in Resources */,
+				816AC1D528EB230100919E85 /* pinchazo-recibido-1.json in Resources */,
 				8154B3BD28CA15830020A8D4 /* Assets.xcassets in Resources */,
+				816AC1D128EB1DE100919E85 /* kwikpen-python-script.py in Resources */,
+				816174A128EC99F5003F2D51 /* module_kp.pt in Resources */,
 				8154B3CA28CA15FD0020A8D4 /* DummyPythonScript.py in Resources */,
+				81B2E76428ED6758005BE724 /* model.pt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F91CC0505B93E52E0EF4511A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PythoniOS-Dummy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8154B3B128CA15820020A8D4 /* Sources */ = {
@@ -158,7 +257,11 @@
 			files = (
 				8154B3BB28CA15820020A8D4 /* ContentView.swift in Sources */,
 				8154B3CC28CA16850020A8D4 /* PythonManager.swift in Sources */,
+				8137C2E928ED772B00C87F54 /* TorchModule.mm in Sources */,
+				81AEA01128EC8437005E465F /* PyTorchManager.swift in Sources */,
+				81980B3428ED79F70041FCEB /* UIImage+Helper.swift in Sources */,
 				8154B3B928CA15820020A8D4 /* PythoniOS_DummyApp.swift in Sources */,
+				816AC1D328EB220800919E85 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +384,11 @@
 		};
 		8154B3C428CA15830020A8D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBD71DD4E42A87475DAD93B /* Pods-PythoniOS-Dummy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PythoniOS-Dummy/Preview Content\"";
@@ -304,6 +409,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juanjovn.PythoniOS-Dummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PythoniOS-Dummy/TorchBridge/PythoniOS-Dummy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,9 +418,11 @@
 		};
 		8154B3C528CA15830020A8D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D6D6F03D70727848FDB48C /* Pods-PythoniOS-Dummy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PythoniOS-Dummy/Preview Content\"";
@@ -333,6 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juanjovn.PythoniOS-Dummy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PythoniOS-Dummy/TorchBridge/PythoniOS-Dummy-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
